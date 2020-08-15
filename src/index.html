@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MealRecipes</title>
+    <script type="text/JavaScript">
+        document.addEventListener('DOMContentLoaded', function() { var elems = document.querySelectorAll('.carousel'); var instances = M.Carousel.init(elems, {}); }); document.addEventListener('DOMContentLoaded', function() { var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems, {}); });
+    </script>
+</head>
+
+<body>
+    <div class="navbar-fixed " id="home">
+        <nav>
+            <div class="nav-wrapper purple">
+                <div class="container">
+                    <a href="#" class="brand-logo">
+                        <h5>FINDMEALS</h5>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./img/home.jpeg"></div>
+    </div>
+    <div class="container">
+        <div class="container">
+            <search-tool></search-tool>
+        </div>
+        <div class="container">
+            <recipes-list></recipes-list>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="section " id="about">
+            <div class="parallax part2"><img src="./img/about.jpeg"></div>
+            <div class="row container">
+                <h2 class="header center white-text">About Us</h2>
+                <p class="white-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                    illa mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./img/footer.jpeg"></div>
+        <div class="carousel" id="gallery">
+            <div class="row container">
+                <h2 class="header center white-text">Our Gallery</h2>
+            </div>
+            <a class="carousel-item"><img src="./img/gal.jpeg"></a>
+            <a class="carousel-item"><img src="./img/pie.jpg"></a>
+            <a class="carousel-item"><img src="./img/ber.jpg"></a>
+            <a class="carousel-item"><img src="./img/bios.jpg"></a>
+            <a class="carousel-item"><img src="./img/cake.jpg"></a>
+            <a class="carousel-item"><img src="./img/don.jpg"></a>
+            <a class="carousel-item"><img src="./img/soup.jpg"></a>
+        </div>
+    </div>
+
+    <footer class="page-footer purple">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">
+                        FINDMEALS</h5>
+                    <p class="grey-text text-lighten-4">You can find the meal that you like here.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contact</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Whatsaap</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Instagram</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright purple darken-1">
+            <div class="container">
+                © 2020 Copyright Text
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
